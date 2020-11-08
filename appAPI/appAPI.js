@@ -2,7 +2,10 @@ const url = 'https://randomuser.me/api/?nat=gb&results=20';
 const users = document.querySelector('.users');
 const userData = [];
 
-    fetch(url)
+    fetch(url,{
+        method: 'GET',
+        credentials: 'same-origin',    
+    })
     .then(res => res.json())
     .then(data => {
         console.log(data);
