@@ -1,0 +1,46 @@
+html {
+    font-family: sans-serif;
+  }
+  
+  body {
+    margin: 0;
+  }
+  button {
+    font: inherit;
+    background: #0e0250;
+    border: 1px solid;
+    color: white;
+    cursor: pointer;
+    padding: .5rem 1.5rem;
+    font-size: 1rem;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button:hover,
+  button:active {
+    background: #074d0dde;
+    border-color: #074d0dde;
+  }
+  
+  form{
+      align-items: center;
+      text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    border: 2px solid #ccc;
+    padding: 20px 2px;
+    margin-top: 15px;
+  }
+  #search{
+    border: 1px solid;
+    cursor: pointer;
+    padding: .5rem 1.5rem;
+    font-size: .9rem;
+  }
+  img{
+      border-radius: 15px black ;
+      border: 5px;
+  }
